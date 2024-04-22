@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #37383f; /* Dark gray background */
+    color: #ffffff; /* Light text color for better contrast */
+}
+
+#gameArea {
+    background-color: #37383f; /* Or any other suitable color */
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    display: block; /* Ensures the image is block level */
+    margin: 20px auto; /* Centers the image horizontally */
+    width: 100px; /* Adjust width as necessary */
+    height: auto; /* Maintains aspect ratio */
+    background: transparent; /* Explicitly setting background to transparent */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    display: block; /* Ensures the button takes its own line */
+    margin: 20px auto; /* Centers the button horizontally */
+    background-color: #555; /* Dark button background */
+    color: white; /* Light button text */
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+#answerDisplay {
+    height: 50px; /* Ensure enough space is always reserved for the answer text */
+    font-size: 24px; /* Larger font for the answer */
+    color: #ffd700; /* Gold color for emphasis */
+    margin-bottom: 20px; /* Space above the Show Answer button */
+    min-height: 50px; /* Minimum height to maintain layout even when empty */
+}
+
+#stageImage, #patternImage {
+    background: none; /* Ensuring no background color is applied */
+}
+
+#hpDisplay {
+    font-size: 24px; /* Larger font for HP */
+    color: red; /* Red color for HP */
+    margin-bottom: 10px;
+}
+
+#patternTypeDisplay {
+    font-size: 18px;
+}
+
+#timerDisplay {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#restartButton {
+    width: 200px; /* Fixed width for the restart button */
+}
+
+#helpButton {
+    position: absolute;
+    top: 20px; /* Adjust based on your layout */
+    right: 20px; /* Adjust based on your layout */
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.help-content {
+    margin: 20px;
+    color: #ffffff; /* Assuming a dark theme from your main game page */
+    text-align: left; /* More readable for longer text */
+}
